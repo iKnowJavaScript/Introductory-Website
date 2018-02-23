@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Omolayo Victor - Web Explorer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/minireset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="js/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+<body>
+    <div id="wallpaper" class="wallpaper" data-image="images/austria.jpg"></div>
+    <div class="content">
+        <aside class="side">
+            <figure id="picture" class="picture">
+                <div class="picture-shadow"></div>
+                <img id="pictureImage"
+                    class="picture-image"
+                    src="images/alex.jpg"
+                    srcset="images/alex.jpg 1x,
+                    images/alex@2x.jpg 2x,
+                    images/alex@3x.jpg 3x"
+                    alt="Portrait of Alex Jefferson" width="320" height="320">
+            </figure>
+        </aside>
+        <main class="about">
+            <h1 class="name">
+            Hi, I'm Omolayo Victor</h1>
+            <p class="job">Web Enthusiast</p>
+            <hr class="hr">
+            <div class="description">
+                <p>
+                 I strive to create a sleek design,
+                 love travelling and always excited
+                 to work on new project.
+                </p>
+            </div>
+            <div class="contact">      
+              <a class="button" href="mailto:remymartins0398@yahoo.com">
+                Get in touch
+              </a>
+              <ul class="social">
+                 <li>
+                    <a href="https://twitter.com/iKnowJavaScript">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                    <li>
+                    <a href="https://github.com/iKnowJavaScript" >
+                    <i class="fab fa-github"></i>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://www.instagram.com/iam_remymartins/" >
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                    </li>
+              </ul>
+            </div>
+        </main>
+    </div>
+    
+    <noscript>
+        
+        <style type="text/css">
+        /* if js is disable by the user */
+            .wallpaper {
+                animation-name: zoomOut;
+            }
+            .picture {
+                animation-name: dropIn;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
